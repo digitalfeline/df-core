@@ -1,0 +1,9 @@
+# Don't commit node_modules
+node_modules/
+
+# Build directories
+dist/
+types/
+
+# Typescript caches
+*.tsbuildinfo

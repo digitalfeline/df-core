@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "exactOptionalPropertyTypes": true,
+        "noImplicitAny": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "strict": true,
+        "module": "es6",
+        "declaration": true,
+        "declarationDir": "types",
+        "declarationMap": true,
+        "noEmitOnError": true,
+        "outDir": "dist",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

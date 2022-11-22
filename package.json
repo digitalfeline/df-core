@@ -1,0 +1,32 @@
+{
+    "name": "df-core",
+    "version": "0.0.1-alpha",
+    "description": "DF game core",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx webpack --mode=production --define-process-env-node-env=production",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:dev": "npx webpack --mode=development",
+        "build:prod": "npx webpack --mode=production --define-process-env-node-env=production",
+        "watch": "npx webpack --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/digitalfeline/df-core.git"
+    },
+    "author": "leafileaf",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/digitalfeline/df-core/issues"
+    },
+    "homepage": "https://github.com/digitalfeline/df-core#readme",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.44.0",
+        "@typescript-eslint/parser": "^5.44.0",
+        "eslint": "^8.28.0",
+        "ts-loader": "^9.4.1",
+        "typescript": "^4.9.3",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.0"
+    }
+}
